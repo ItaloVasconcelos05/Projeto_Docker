@@ -78,11 +78,5 @@ projeto-docker
 - **Serviço de Usuários**: O código do serviço de usuários está em [desafio5/users/app.py](desafio5/users/app.py).
 - **Serviço de Pedidos**: O código do serviço de pedidos está em [desafio5/orders/app.py](desafio5/orders/app.py).
 
-## Orquestração
-- O arquivo [docker-compose.yml](docker-compose.yml) orquestra a execução de todos os serviços, definindo como eles interagem e se conectam dentro da rede Docker.
-
-## Ignorar Arquivos
-- O arquivo [.gitignore](.gitignore) especifica quais arquivos e diretórios devem ser ignorados pelo Git.
-
 ## Conclusão
 Este projeto demonstra a utilização de Docker para implementar e orquestrar múltiplos serviços, cada um com sua própria funcionalidade e documentação. Para mais detalhes sobre cada desafio, consulte os respectivos arquivos README.
